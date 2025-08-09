@@ -13,6 +13,7 @@ public class Main {
         Ticket t2=new Ticket(c2,ps2);
 
         System.out.println(t1.getBillAmount());
+        System.out.println(Ticket.getParkingSlot(VehicleType.FOURWHEELER));
     }
 
     private static void allocateSlotToVehicle(){
